@@ -17,8 +17,8 @@ def main():
     detector_classical.set_area_range(500, 50000)
     detector_classical.set_circularity_threshold(0.7)
 
-    camera_utils.set_camera_properties(cap, brightness=98) 
-    camera_utils.set_camera_properties(cap, exposure=-3)  
+    camera_utils.set_camera_properties(cap, brightness=95) 
+    camera_utils.set_camera_properties(cap, exposure=-2)  
     camera_utils.set_intrinsic_parameters(camera_info, focal_length=600.0, principal_point=(330, 250), distortion_coefficients=np.zeros((4, 1)))
 
     while True:
