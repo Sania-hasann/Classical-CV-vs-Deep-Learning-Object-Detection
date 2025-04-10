@@ -95,7 +95,6 @@ The deep learning implementation uses:
 
 ## Limitations and Future Work
 - Lack of proper camera calibration limited the accuracy of size and position measurements
-- Without ground truth data, evaluation relied on qualitative visual inspection
 - Potential improvements:
   - Implement proper camera calibration using checkerboards
   - Explore advanced classical feature detectors
